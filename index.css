@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+*{
+    margin: 0; padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+#header{
+    width: 100%; height: 100px;
+    background-color: rgb(255, 252, 247);
+    display: flex;
+}
+#header .logo img{
+width: 150px; height: 50px;
+margin-left: 70px;
+margin-top: 30px;
+}
+
+#header .container{
+    display: flex;
+    margin: 50px 400px;
+}
+#header .container>li{
+    margin-left: 60px ;
+}
+#header .container2{
+    display: flex;
+    margin-top: 40px;
+    
+}
+#header .container2>li{
+    margin-left: 40px;
+}
+
+#section .main_img{
+    width: 1700px; height: 800px;
+    margin: 0 auto;
+}
+
+#section .main_img img{
+    width: 1700px; height: 800px;   
+    border-radius: 30px;
+}
+
+#section .search{
+    width: 1200px; height: 50px;
+    border-radius: 30px;
+    display: flex;
+    border: 1px solid red;
+    margin: 50px auto;
+}
+#section .search .search1 select{
+    width: 800px; height: 40px;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 5px;
+    margin-left: 50px; 
+    margin-bottom: 10px;
+    font-family: cursive, sans-serif;
+    background: #2ecc71;
+    color: #fff;
+}
+
+#section .search .search1 input[type="submit"]{
+    width: 200px; height:  40px;
+    border-radius: 30px;
+    background-color: #FFEC9F;
+    border: 0;
+}
+
+#section .search h3{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#section h2{
+    width: 300px;height: 30px;
+    margin: 0 auto;
+    font-size: 36px;
+}
+#section .donut{
+    width: 100%; height: 700px;
+    display: flex;
+    justify-content: center;
+}
+#section .donut>div{
+    width: 280px; height: 400px;
+    border-radius: 30px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.5) ;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+#section .donut img{
+    width: 280px; height: 300px;
+}
+
+#section .donut .do1 p,#section .donut .do2 p,#section .donut .do3 p
+{
+    width: 200px; height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+#section .donut .do1 .p1,#section .donut .do2 .p1,#section .donut .do3 .p1
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+#section .donut .do1 .p2,#section .donut .do2 .p2,#section .donut .do3 .p2
+{
+    font-weight: bold;
+    color: pink;
+}
+
+/* #section .online_shop 시작 */
+
+#section .online_shop{
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#section .online_shop ul{
+    display: flex;
+    justify-content: center;
+}
+#section .online_shop img{
+    width: 350px; height: 300px;
+    /* border-radius: 20px 20px 0 0;  div에 전체 주기도 가능 */
+}
+#section .online_shop li div{
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+#section .online_shop li{
+    cursor: pointer;   
+}
+#section .online_shop li .cont_bg1{
+    width: 350px; height: 300px;
+    background-image: url(images/cont1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section .online_shop li .cont_bg1:hover{
+    background-image: url(images/KakaoTalk_20231116_093708989_02.jpg);
+}
+#section .online_shop li .cont_bg2{
+    width: 350px; height: 300px;
+    background-image: url(images/cont2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section .online_shop li .cont_bg2:hover{
+    background-image: url(images/KakaoTalk_20231116_093708989_03.jpg);
+}
+#section .online_shop li .cont_bg3{
+    width: 350px; height: 300px;
+    background-image: url(images/cont3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section .online_shop li .cont_bg3:hover{
+    background-image: url(images/KakaoTalk_20231116_093708989_05.jpg);
+}
+#section .online_shop li .cont_bg4{
+    width: 350px; height: 300px;
+    background-image: url(images/cont4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section .online_shop li .cont_bg4:hover{
+    background-image: url(images/so.jpg);
+}
+#section .online_shop h3{
+    margin-top: 50px;
+    text-align: center;
+}
+#section .online_shop .cont_cart{
+    width: 350px; height: 50px;
+    background-color: antiquewhite;
+    border-radius: 0 0 30px 30px;
+}
+#section .online_shop p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: pink;
+}
+#section .online_shop li{
+    margin-left: 50px;
+}
+#section .online_shop .cont_cart{
+    height: 40px;
+    color: black;
+    padding-top: 10px;
+    font-size: 15px;
+}
